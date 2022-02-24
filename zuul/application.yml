@@ -1,0 +1,12 @@
+server:
+    servlet:
+        contextPath: /zuul
+spring:
+    application:
+        name: zuul
+eureka:
+    client:
+        serviceUrl:
+            defaultZone: http://internal.services.lab.trendmicroservices.sohamroy.me:8080/eureka/eureka/
+    instance:
+        hostname: internal.zuul.lab.trendmicroservices.sohamroy.me
