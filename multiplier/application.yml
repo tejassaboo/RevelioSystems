@@ -1,0 +1,13 @@
+server:
+  servlet:
+    contextPath: /multiplier
+
+spring:
+  application:
+    name: multiplier
+eureka:
+  client:
+    serviceUrl:
+      defaultZone: http://internal.services.lab.trendmicroservices.sohamroy.me:8080/eureka/eureka/
+  instance:
+    hostname: internal.services.lab.trendmicroservices.sohamroy.me
