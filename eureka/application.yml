@@ -1,0 +1,12 @@
+server:
+    servlet:
+        contextPath: /eureka
+spring:
+    application:
+        name: eureka
+eureka:
+    client:
+        registerWithEureka: false
+        fetchRegistry: false
+    instance:
+        hostname: internal.services.lab.trendmicroservices.sohamroy.me
