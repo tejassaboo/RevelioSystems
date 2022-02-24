@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Lab Test</title>
+
+    <!--Import Google Icon Font-->
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <!--Import materialize.css-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+
+    <!--Let browser know website is optimized for mobile-->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+</head>
+<body>
+<div class="section no-pad-bot" id="index-banner">
+    <div class="container">
+        <br><br>
+        <h1 class="header center orange-text text-darken-1">Microservices Laboratory</h1>
+        <div class="row center">
+            <h5 class="header col s12 light">Interact with a real microservice application.</h5>
+        </div>
+        <div class="row center">
+            <div class="col s12 m3"></div>
+            <div class="col s6 m3">
+                <a href="https://monitor.lab.trendmicroservices.sohamroy.me" id="monitoring-button"
+                   class="btn-large waves-effect waves-light orange darken-1">Monitoring</a>
+            </div>
+            <div class="col s6 m3">
+                <a href="https://www.lab.trendmicroservices.sohamroy.me/eureka" id="eureka-button"
+                   class="btn-large waves-effect waves-light orange darken-1">Eureka</a>
+            </div>
+        </div>
+        <br><br>
+
+    </div>
+</div>
+
+
+<div class="container">
+    <div class="section">
+
+        <!--   Icon Section   -->
+        <div class="row">
+            <div class="col s12 m4">
+                <div class="card grey darken-1">
+                    <div class="card-image white">
+                        <div id="1-out" class="card-content">
+
+                        </div>
+                    </div>
+                    <div class="card-content white-text">
+                        <span class="card-title">Adder Service</span>
+                        <p>This service adds two numbers together and returns the result.</p>
+                    </div>
+                    <div class="card-action white-text">
+                        <a href="javascript:service1()">Run service</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col s12 m4">
+                <div class="card grey darken-1">
+                    <div class="card-image white">
+                        <div id="2-out" class="card-content">
+                        </div>
+                    </div>
+                    <div class="card-content white-text">
+                        <span class="card-title">Random Service</span>
+                        <p>This service generates random numbers.</p>
+                    </div>
+                    <div class="card-action white-text">
+                        <a href="javascript:service2()">Run service</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col s12 m4">
+                <div class="card grey darken-1">
+                    <div class="card-image white">
+                        <div id="3-out" class="card-content">
+                        </div>
+                    </div>
+                    <div class="card-content white-text">
+                        <span class="card-title">Multiplier Service</span>
+                        <p>This service multiplies two numbers together and returns the result.</p>
+                    </div>
+                    <div class="card-action white-text">
+                        <a href="javascript:service3()">Run service</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </div>
+    <br><br>
+</div>
+
+
+<!--JavaScript at end of body for optimized loading-->
+<script src="js/app.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+</body>
+</html>
