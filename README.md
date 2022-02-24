@@ -2,6 +2,7 @@
 
 Revelio Systems is a student startup sponsored by UT Austin's Inventors Program in partnership with Trend Micro.
 <br>
+
 Team: Tejas Saboo, Soham Roy, Akshay Mantri, Wentao Yang
 <br>
 Pitch: https://youtu.be/I46GmiyUfdE
